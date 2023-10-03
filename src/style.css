@@ -5,15 +5,14 @@ h2,p {
 }
 
 img {
-   width: 300px;
+    width: 300px;
     display: block;
     object-fit:cover;
 }
 
 .cat-info {
     display: flex;
-
-    padding: 10px;
+    margin-top: 15px;
 }
 
 .description {
