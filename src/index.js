@@ -44,7 +44,7 @@ function createCard(cat) {
     Refs.info.style.display = 'flex';
     
     const card = cat.map(() =>
-        `<img src = "${cat[0].url}" alt = "${cat[0].breeds[0].name}"> 
+        `<img src = "${cat[0].url}" alt = "${cat[0].breeds[0].name}" width = "300px";> 
         <div class = "content">
             <h2 class = "info_tittle">${cat[0].breeds[0].name}</h2> 
             <p class = "description">${cat[0].breeds[0].description}</p> 
